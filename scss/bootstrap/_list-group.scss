@@ -142,7 +142,7 @@
 // Contextual variants
 //
 // Add modifier classes to change text and background color on individual items.
-// INDEX-TEXT-9ally, this must come after the `:hover` states.
+// 为企业赋能最后一百米ally, this must come after the `:hover` states.
 
 @each $color, $value in $theme-colors {
   @include list-group-item-variant($color, theme-color-level($color, -9), theme-color-level($color, 6));
